@@ -1,0 +1,295 @@
+html {
+	height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.lead{
+	margin: 15px !important;
+}
+
+.card{
+	border:none;
+}
+
+.nav-item{
+	margin: 3px !important;
+	border-radius: 60px !important;
+}
+
+main > .container {
+  padding: 75px 15px 0;
+}
+
+.footer {
+  background-color: transparent;
+}
+
+.retrouvez-nous{
+  color: #fff !important;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.retrouvez-nous:hover{
+  pointer-events: none;
+}
+
+
+/*Footer menu left*/
+ul#footerMenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul#footerMenu li {
+  	float: left;
+}
+
+ul#footerMenu li a {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  padding: 3px;
+  text-decoration: underline;
+}
+
+
+ul#footerMenuIcons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul#footerMenuIcons li {
+  	float: left;
+}
+
+ul#footerMenuIcons li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 3px;
+  text-decoration: underline;
+}
+
+.footerElm{
+ 	font-size: 11px;
+  color: #fff;
+  text-align: center;
+}
+.author{
+	color: #fff;
+	text-decoration: underline;
+}
+/*End footer menu left*/
+
+
+.wrapper-welcome{
+    margin-top: 8rem;
+}
+
+
+
+.lead-in{
+  color: #fff !important;
+  font-size: 26px;
+  text-transform: initial;
+  text-align: center;
+}
+
+.wrapper-search-zone{
+  background-image: linear-gradient(to right, rgb(54,176,50,0.4), rgb(106,190,38,0.4), rgb(150,202,23,0.4), rgb(192,214,8,0.4), rgb(235,224,9,0.4));
+  padding: 15px !important;
+  border-radius: 20px;
+}
+
+.input-group > .form-control:not(:first-child) {
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+
+.form-inline{
+  margin: 0 auto;
+}
+
+
+.form-inline .form-control {
+   border-radius: 13px;
+}
+
+.btn-custom{
+  text-transform: uppercase;
+  background-color: #efd803;
+  border: transparent;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.btn-custom:hover{
+  background-color: #efd803;
+}
+
+.btn-light{
+  border-radius: 13px !important;
+}
+
+.footer-widget-content-left{
+  border-right: 2px solid #fff;
+}
+.me, .ask, .indicator{
+  margin-left: 8rem;
+}
+
+.me{
+  margin-bottom: 0px !important;
+  z-index: 5000;
+  color: #ebe009;
+  font-weight:bold;
+}
+
+.ask{
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.fa-chevron-right{
+  background-color: #ebe009;
+  padding: 5px;
+  font-weight: 600;
+  border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+  color: #fff;  
+  width:25px;
+  height:25px;
+  text-align: center;
+}
+
+.godeeper{
+  font-style: italic;
+  font-size: 14px;
+ 
+}
+
+.godeeper a{
+   color: #fff; 
+}
+
+.godeeper a:hover{
+   color: #fff;
+   text-decoration: none;
+}
+
+.footer-copyright{
+  margin-top: 1.2px !important;
+}
+
+.fab{
+  color: #fff;
+  margin-right: 6px;
+  margin-top: 1px;
+}
+
+.btn-warning, .btn-outline-danger{
+	border-radius: inherit;
+	font-size: 12px;
+}
+
+.description{
+	font-size: 12px;
+text-align: center;
+float: left;
+}
+
+#login-wrapper {
+	min-height: 100%;
+	background:#0099cc;
+	display:none;
+}
+
+.isHide{
+  display:none;
+}
+
+.btn-outline-danger, .btn-warning {
+    border-radius: inherit;
+    font-size: 12px;
+    width: 155px;
+    font-weight: bold;
+}
+
+.btn-outline-danger{
+  border-color: #f7c507 !important;
+
+}
+
+.btn-outline-danger:hover{
+  background-color: #e50606;
+}
+
+.btn-outline-warning{
+  background-color: #e50606;
+  border-color: #e50606;
+}
+
+.btn-warning:hover{
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+#btn-register{
+ color: #fff !important;
+}
+
+#btn-register:hover{
+ color: #ffffff !important;
+ content: ">"
+}
+
+#btn-login{
+ color: #ffffff !important;
+ text-transform: uppercase;
+}
+
+.top-nav{
+  background-color: transparent;
+}
+
+.top-nav-label{
+  font-size: 8px;
+  margin: 13px;
+  font-weight: inherit;
+}
+
+.top-nav ul{
+  padding: 12px;
+}
+
+.txt-welcome{
+  margin-right: 3rem;
+}
+
+.txt-not-member{
+  margin-right: 1.5rem !important;
+}
+
